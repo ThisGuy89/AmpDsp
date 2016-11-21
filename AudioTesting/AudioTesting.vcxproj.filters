@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\STK">
+      <UniqueIdentifier>{152bb3bd-d971-4b21-8c17-4aad141f192e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\ADSR.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\Asymp.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\BandedWG.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\BeeThree.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\BiQuad.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\Blit.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\BlitSaw.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\BlitSquare.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\BlowBotl.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\BlowHole.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\Bowed.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\Brass.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\Chorus.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\Clarinet.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\Delay.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\DelayA.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\DelayL.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\Drummer.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\Echo.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\Envelope.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\FileLoop.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\FileRead.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\FileWrite.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\FileWvIn.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\FileWvOut.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\Fir.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\Flute.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\FM.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\FMVoices.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\FormSwep.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\FreeVerb.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\Granulate.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\Guitar.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\HevyMetl.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\Iir.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\InetWvIn.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\InetWvOut.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\JCRev.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\LentPitShift.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\Mandolin.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\Mesh2D.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\Messager.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\MidiFileIn.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\Modal.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\ModalBar.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\Modulate.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\Moog.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\Mutex.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\Noise.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\NRev.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\OnePole.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\OneZero.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\PercFlut.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\Phonemes.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\PitShift.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\Plucked.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\PoleZero.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\PRCRev.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\Resonate.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\Rhodey.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\RtAudio.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\RtMidi.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\RtWvIn.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\RtWvOut.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\Sampler.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\Saxofony.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\Shakers.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\Simple.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\SineWave.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\SingWave.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\Sitar.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\Skini.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\Socket.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\Sphere.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\StifKarp.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\Stk.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\TapDelay.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\TcpClient.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\TcpServer.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\Thread.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\TubeBell.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\Twang.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\TwoPole.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\TwoZero.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\UdpSocket.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\Voicer.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\VoicForm.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\Whistle.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\Wurley.cpp">
+      <Filter>Source Files\STK</Filter>
+    </ClCompile>
+    <ClCompile Include="CircularBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="audioBufferTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="deps\STK\src\Makefile.in">
+      <Filter>Source Files\STK</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CircularBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="audioBufferTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
