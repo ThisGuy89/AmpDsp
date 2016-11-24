@@ -117,8 +117,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="audioBufferTest.cpp" />
-    <ClCompile Include="CircularBuffer.cpp" />
+    <ClCompile Include="CleanEffect.cpp" />
+    <ClCompile Include="CombFilter.cpp" />
     <ClCompile Include="deps\STK\src\ADSR.cpp" />
     <ClCompile Include="deps\STK\src\Asymp.cpp" />
     <ClCompile Include="deps\STK\src\BandedWG.cpp" />
@@ -208,14 +208,19 @@
     <ClCompile Include="deps\STK\src\VoicForm.cpp" />
     <ClCompile Include="deps\STK\src\Whistle.cpp" />
     <ClCompile Include="deps\STK\src\Wurley.cpp" />
+    <ClCompile Include="EffectManager.cpp" />
+    <ClCompile Include="IGuitarEffect.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Class Diagram.cd" />
     <None Include="deps\STK\src\Makefile.in" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="audioBufferTest.h" />
-    <ClInclude Include="CircularBuffer.h" />
+    <ClInclude Include="CleanEffect.h" />
+    <ClInclude Include="CombFilter.h" />
+    <ClInclude Include="EffectManager.h" />
+    <ClInclude Include="IGuitarEffect.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

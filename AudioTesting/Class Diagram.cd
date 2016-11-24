@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CleanEffect">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>CleanEffect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CombFilter">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAQAAAAAAAAAAAAAIAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>CombFilter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EffectManager">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAgAAAAAAAIAAAAACACgAAAAAAAAAAAAA=</HashCode>
+      <FileName>EffectManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IGuitarEffect">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAIAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IGuitarEffect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

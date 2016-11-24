@@ -288,10 +288,16 @@
     <ClCompile Include="deps\STK\src\Wurley.cpp">
       <Filter>Source Files\STK</Filter>
     </ClCompile>
-    <ClCompile Include="CircularBuffer.cpp">
+    <ClCompile Include="IGuitarEffect.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="audioBufferTest.cpp">
+    <ClCompile Include="CombFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CleanEffect.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -299,12 +305,19 @@
     <None Include="deps\STK\src\Makefile.in">
       <Filter>Source Files\STK</Filter>
     </None>
+    <None Include="Class Diagram.cd" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CircularBuffer.h">
+    <ClInclude Include="IGuitarEffect.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="audioBufferTest.h">
+    <ClInclude Include="CombFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CleanEffect.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
