@@ -9,12 +9,18 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
+    <Filter Include="Source Files\STK">
+      <UniqueIdentifier>{152bb3bd-d971-4b21-8c17-4aad141f192e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ASIO">
+      <UniqueIdentifier>{36e8bc30-79de-430a-9304-b879b01eb788}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ASIO">
+      <UniqueIdentifier>{1891bb95-e2ab-41e1-920c-5ec50fb5d778}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Resource Files">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
-    <Filter Include="Source Files\STK">
-      <UniqueIdentifier>{152bb3bd-d971-4b21-8c17-4aad141f192e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -300,6 +306,21 @@
     <ClCompile Include="CleanEffect.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="deps\STK\src\include\asio.cpp">
+      <Filter>Source Files\ASIO</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\include\asiodrivers.cpp">
+      <Filter>Source Files\ASIO</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\include\asiolist.cpp">
+      <Filter>Source Files\ASIO</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\STK\src\include\iasiothiscallresolver.cpp">
+      <Filter>Source Files\ASIO</Filter>
+    </ClCompile>
+    <ClCompile Include="Distortion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="deps\STK\src\Makefile.in">
@@ -318,6 +339,45 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CleanEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\STK\src\include\asio.h">
+      <Filter>Header Files\ASIO</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\STK\src\include\asiodrivers.h">
+      <Filter>Header Files\ASIO</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\STK\src\include\asiodrvr.h">
+      <Filter>Header Files\ASIO</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\STK\src\include\asiolist.h">
+      <Filter>Header Files\ASIO</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\STK\src\include\asiosys.h">
+      <Filter>Header Files\ASIO</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\STK\src\include\dsound.h">
+      <Filter>Header Files\ASIO</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\STK\src\include\FunctionDiscoveryKeys_devpkey.h">
+      <Filter>Header Files\ASIO</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\STK\src\include\ginclude.h">
+      <Filter>Header Files\ASIO</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\STK\src\include\iasiodrv.h">
+      <Filter>Header Files\ASIO</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\STK\src\include\iasiothiscallresolver.h">
+      <Filter>Header Files\ASIO</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\STK\src\include\soundcard.h">
+      <Filter>Header Files\ASIO</Filter>
+    </ClInclude>
+    <ClInclude Include="Distortion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UtilityFunctions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
