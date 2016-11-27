@@ -47,24 +47,25 @@ int main()
 
 	
 	//myEffects.setEffect(effect);
-	effectManager.setEffect(new CleanEffect());
-	effectManager.setEffect(new CombFilter{ 1000 });
+//	effectManager.setEffect(new CleanEffect());
+	effectManager.setEffect(new CombFilter{ 4000 });
+	effectManager.setEffect(new CombFilter{ 4000 });
 
 
 	unsigned int nBufferFrames = 256;  // 256 sample frames
 	unsigned int sampleRate = 44100;
 	unsigned int nChannels = 1;
-	RtAudio adac;
+	RtAudio* adac = new RtAudio(RtAudio::WINDOWS_ASIO);
 
 	// Open the default realtime output device.
 	RtAudio::StreamParameters oParameters, iParameters;
-	oParameters.deviceId = adac.getDefaultOutputDevice();
-	iParameters.deviceId = adac.getDefaultInputDevice();
+	oParameters.deviceId = adac->getDefaultOutputDevice();
+	iParameters.deviceId = adac->getDefaultInputDevice();
 	oParameters.nChannels = nChannels;
 	iParameters.nChannels = nChannels;
 
 	try {
-		adac.openStream(&oParameters, &iParameters, RTAUDIO_FLOAT64, sampleRate, &nBufferFrames, cbFunc);
+		adac->openStream(&oParameters, &iParameters, RTAUDIO_FLOAT64, sampleRate, &nBufferFrames, cbFunc);
 	}
 	catch (RtAudioError &error) {
 		error.printMessage();
@@ -72,7 +73,7 @@ int main()
 	}
 
 	try {
-		adac.startStream();
+		adac->startStream();
 	}
 	catch (RtAudioError &error) {
 		error.printMessage();
@@ -83,11 +84,12 @@ int main()
 	std::cin.get(input); // block until user hits return
 
 	try {
-		adac.stopStream();
+	//	adac.stopStream();
 	}
 	catch (RtAudioError &error) {
 		error.printMessage();
 	}
-	effectManager.deallocateEffects();
+	delete adac;
+	//effectManager.deallocateEffects();
 	return 0;
 }
