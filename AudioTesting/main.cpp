@@ -71,6 +71,7 @@ int main()
 		exit(EXIT_FAILURE);
 	}
 
+
 	try {
 		adac.startStream();
 	}
@@ -78,6 +79,8 @@ int main()
 		error.printMessage();
 		exit(EXIT_FAILURE);
 	}
+
+	std::cout << "Play ... " << std::endl;
 
 	char input;
 	std::cin.get(input); // block until user hits return
