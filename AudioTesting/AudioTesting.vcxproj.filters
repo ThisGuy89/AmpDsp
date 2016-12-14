@@ -22,6 +22,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Effects">
+      <UniqueIdentifier>{c60868dd-b0cc-4b06-84be-3e1373ddd3f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Effects">
+      <UniqueIdentifier>{933172a0-d86e-407a-a107-afff8dde8077}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -294,16 +300,7 @@
     <ClCompile Include="deps\STK\src\Wurley.cpp">
       <Filter>Source Files\STK</Filter>
     </ClCompile>
-    <ClCompile Include="IGuitarEffect.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="CombFilter.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="EffectManager.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="CleanEffect.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="deps\STK\src\include\asio.cpp">
@@ -318,8 +315,20 @@
     <ClCompile Include="deps\STK\src\include\iasiothiscallresolver.cpp">
       <Filter>Source Files\ASIO</Filter>
     </ClCompile>
+    <ClCompile Include="CleanEffect.cpp">
+      <Filter>Source Files\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="CombFilter.cpp">
+      <Filter>Source Files\Effects</Filter>
+    </ClCompile>
     <ClCompile Include="Distortion.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="IGuitarEffect.cpp">
+      <Filter>Source Files\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="DelayEffect.cpp">
+      <Filter>Source Files\Effects</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -329,18 +338,6 @@
     <None Include="Class Diagram.cd" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="IGuitarEffect.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="CombFilter.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="EffectManager.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="CleanEffect.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="deps\STK\src\include\asio.h">
       <Filter>Header Files\ASIO</Filter>
     </ClInclude>
@@ -374,11 +371,26 @@
     <ClInclude Include="deps\STK\src\include\soundcard.h">
       <Filter>Header Files\ASIO</Filter>
     </ClInclude>
-    <ClInclude Include="Distortion.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="UtilityFunctions.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CleanEffect.h">
+      <Filter>Header Files\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="CombFilter.h">
+      <Filter>Header Files\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Distortion.h">
+      <Filter>Header Files\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectManager.h">
+      <Filter>Header Files\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="IGuitarEffect.h">
+      <Filter>Header Files\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="DelayEffect.h">
+      <Filter>Header Files\Effects</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

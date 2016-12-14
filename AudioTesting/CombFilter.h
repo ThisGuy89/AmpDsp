@@ -6,12 +6,12 @@ class CombFilter : public IGuitarEffect
 {
 public:
 	CombFilter(int delayTime) {
-		m_delay.setDelay(delayTime);
+		delay_.setDelay(delayTime);
 	}
 	int applyEffect(double* iData, double* oData, unsigned int bufferSize);
 	~CombFilter();
 
 private:
-	stk::Delay m_delay;
+	stk::Delay delay_;
 };
 

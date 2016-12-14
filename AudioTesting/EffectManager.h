@@ -1,33 +1,20 @@
 #pragma once
 #include "IGuitarEffect.h"
 #include <vector>
+#include <fstream>
+
 
 class EffectManager
 {
-public:
-	
-	EffectManager() {
-	};
-	void setEffect(IGuitarEffect* effect) {
-		m_effects.emplace_back(effect);
-	}
-	int applyEffect(double* iData, double* oData, unsigned int bufferSize) {
-	//	m_effect->applyEffect(iData, oData, bufferSize);
-		
-		for (auto& element : m_effects) element->applyEffect(iData, oData, bufferSize);
-		
-		return 0;
-	}
-	void deallocateEffects() {
-		for (auto element : m_effects)
-			delete element;
-		m_effects.clear();
-	}
-	~EffectManager() {
-		for (auto element : m_effects)
-			delete element;
-	}
+public:	
+	EffectManager();
+	void setEffect(IGuitarEffect* effect);
+	int applyEffect(double* iData, double* oData, unsigned int bufferSize);
+	void deallocateEffects();
+	~EffectManager();
 private:
-	std::vector<IGuitarEffect*> m_effects;
+	std::vector<IGuitarEffect*> effects_;
+	bool streamStarted_ = false;
+	std::ofstream inputdata_, outputdata_; // Logging streams
 };
 

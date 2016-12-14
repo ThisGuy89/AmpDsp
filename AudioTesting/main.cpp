@@ -30,6 +30,7 @@ the README-Linux file for further system configuration information.
 #include "CombFilter.h"
 #include "CleanEffect.h"
 #include "EffectManager.h"
+#include "DelayEffect.h"
 using namespace stk;
 
 // Using a global object to hold the effects for simplicity.
@@ -44,14 +45,12 @@ int cbFunc(void *outputBuffer, void *inputBuffer, unsigned int nBufferFrames, do
 
 int main()
 {
-
+	// Apply effects
+	effectManager.setEffect(new CleanEffect());
+	effectManager.setEffect(new DelayEffect());
 	
-	//myEffects.setEffect(effect);
-//	effectManager.setEffect(new CleanEffect());
-	effectManager.setEffect(new CombFilter{ 4000 });
-	effectManager.setEffect(new CombFilter{ 4000 });
 
-
+	// Declare parameters
 	unsigned int nBufferFrames = 256;  // 256 sample frames
 	unsigned int sampleRate = 44100;
 	unsigned int nChannels = 1;
@@ -72,14 +71,13 @@ int main()
 		exit(EXIT_FAILURE);
 	}
 
-
 	try {
 		adac->startStream();
 	}
 	catch (RtAudioError &error) {
 		error.printMessage();
 		exit(EXIT_FAILURE);
-	}
+	}	
 
 	std::cout << "Play ... " << std::endl;
 
@@ -87,7 +85,7 @@ int main()
 	std::cin.get(input); // block until user hits return
 
 	try {
-	//	adac.stopStream();
+		adac->stopStream();
 	}
 	catch (RtAudioError &error) {
 		error.printMessage();
